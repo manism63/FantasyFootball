@@ -1,0 +1,32 @@
+.position-filter {
+  margin-bottom: 10px;
+}
+
+.position-btn-wrap {
+  display: flex;
+  padding: 10px 0;
+}
+
+.position-btn {
+  margin-right: 10px;
+}
+
+.name {
+  text-align: left;
+  flex: 1;
+}
+
+.position {
+  text-align: left;
+  width: 80px;
+  flex: inherit;
+}
+
+.table-header {
+  .sort-indicator {
+    position: relative;
+    top: 4px;
+    margin-left: 4px;
+    width: 10px;
+  }
+}

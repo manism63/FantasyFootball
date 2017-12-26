@@ -1,0 +1,108 @@
+.root {
+  padding: 16px;
+}
+
+.component {
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 140px;
+  height: 50px;
+  text-decoration: none;
+  border: solid 0.063rem #2c2c2c;
+  background-color: #4256f4;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.thick {
+  width: 160px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #820303;
+}
+
+.sequence {
+  position: relative;
+  .watermark {
+    position: absolute;
+    width: 480px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 0;
+    opacity: 0.05;
+  }
+}
+
+.block {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.sequence-wrap {
+  flex: 1;
+}
+
+.sequence {
+  .round {
+    width: 80px;
+    flex: inherit;
+  }
+  .user {
+    text-align: left;
+  }
+  .pass {
+    color: #999;
+    background: #eee;
+  }
+  .now {
+    color: #ffda23;
+    background: #333;
+  }
+
+  .count-down {
+    padding: 10px;
+    font-weight: bold;
+    text-align: right;
+  }
+}
+
+.select-player-wrap {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.team-detail-wrap {
+  margin-right: 20px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.team-detail {
+  width: 100%;
+  .selector {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.chat-room-wrap {
+  height: 500px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+}

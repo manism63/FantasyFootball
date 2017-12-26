@@ -1,0 +1,32 @@
+.root {
+  padding: 16px;
+}
+
+.name {
+  text-align: left;
+  color: #41a9ff;
+  flex: 1;
+}
+
+.position {
+  text-align: left;
+  width: 80px;
+  flex: inherit;
+}
+
+.player-item {
+  height: 65px;
+  overflow: hidden;
+}
+
+.team-bg {
+  position: absolute;
+  left: 40px;
+  right: 0;
+  top: 20px;
+  bottom: 10px;
+  height: 35px;
+  z-index: 0;
+  opacity: 0.05;
+  background-size: cover;
+}

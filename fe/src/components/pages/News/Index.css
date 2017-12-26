@@ -1,0 +1,13 @@
+.root {
+  padding: 16px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}

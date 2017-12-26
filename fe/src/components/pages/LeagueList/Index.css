@@ -1,0 +1,55 @@
+.root {
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.list-wrap {
+  margin: 20px 0;
+
+  .text-left {
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 4px;
+  }
+
+  .creator-col {
+    width: 160px;
+    flex: inherit;
+    word-break: break-all;
+  }
+
+  .action-col {
+    width: 240px;
+    flex: inherit;
+  }
+
+  .pa-col {
+    word-break: break-all;
+  }
+
+  .time-col {
+    width: 140px;
+    flex: inherit;
+  }
+
+  .count-col {
+    width: 80px;
+    flex: inherit;
+  }
+  .stage-col {
+    width: 120px;
+    flex: inherit;
+  }
+}
+
+.function-bar {
+  padding: 10px;
+  text-align: center;
+  :global {
+    .component-btn {
+      margin: 0 0 5px 0;
+      width: 200px;
+      line-height: 12px;
+    }
+  }
+}

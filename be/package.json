@@ -1,0 +1,38 @@
+{
+  "name": "game-server",
+  "version": "0.0.1",
+  "scripts": {
+    "babel-node": "babel-node",
+    "dev": "nodemon --exec npm run babel-node -- ./src/index.js",
+    "start": "CONFIG=testing babel-node ./src/index.js",
+    "compile": "CONFIG=production babel src -d build",
+    "start:production":
+      "pm2 kill && CONFIG=production pm2 start ./build/index.js --name 'api'"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "body-parser": "^1.18.2",
+    "dataloader": "1.3.0",
+    "duo_web": "^1.0.2",
+    "express": "^4.13.4",
+    "express-graphql": "^0.6.1",
+    "express-session": "^1.13.0",
+    "graphql": "^0.8.2",
+    "http-status": "^0.2.2",
+    "immutable": "^3.8.1",
+    "mongodb": "^2.2.31",
+    "passport": "0.3.2",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "ws": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.9.1"
+  }
+}
